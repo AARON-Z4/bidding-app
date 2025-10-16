@@ -1,0 +1,31 @@
+# FastAPI and Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+bcrypt==4.1.1
+
+# WebSocket
+websockets==12.0
+python-socketio==5.10.0
+
+# Payment Integration
+razorpay==1.4.1
+
+# Utilities
+pydantic==2.5.0
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Image Upload
+pillow==10.1.0
+aiofiles==23.2.1
